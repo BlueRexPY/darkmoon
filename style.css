@@ -120,7 +120,7 @@ body{
 	background: linear-gradient(-45deg, #E899F2, #9177F2,#389BF2 , #05F2F2);
 	background-size: 400% 400%;
 	animation: Gradient 7s ease infinite;
-    animation: circle 7s;
+    
     
 }
 
@@ -198,8 +198,9 @@ header .logo{
 .ul_menu .li_menu :hover {
   color: #5550f2;
 }
-
-
+.figure{
+    animation: circle 7s;
+}
 @keyframes head {
     0% { opacity: 0;}
     5% { opacity: 0;}
